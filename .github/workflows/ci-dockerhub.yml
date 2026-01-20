@@ -26,8 +26,8 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        # REPLACE THIS WITH YOUR DOCKERHUB USERNAME:
-        images: your-dockerhub-username/python-ci-lab
+        
+        images: urk23cs1044/python-ci-lab
         tags: |
           type=raw,value=latest,enable={{is_default_branch}}
           type=sha,prefix=sha-,format=short
